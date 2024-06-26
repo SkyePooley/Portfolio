@@ -1,0 +1,233 @@
+body {
+  font-family: Helvetica;
+  /*background-color: #f4f5f7;*/
+  /* background-image: linear-gradient(#fffcdc, hsl(322, 49%, 71%)); */
+  background-image: url("Images/britomart.JPG");
+  background-repeat: no-repeat;
+  background-size: fill;
+  background-attachment:fixed;
+  background-position: center ;
+  line-height: 1.4;
+
+}
+
+article {
+  float: center;
+  padding: 30px;
+  margin: 20px;
+  border-radius: 5px;
+  width: 50%;
+  min-width: 1000px;
+  background-color: #fefefe;
+  /* background-image: transparent; */
+  color: #222222;
+  box-shadow: 3px 3px 10px rgb(25, 25, 25);
+}
+
+address {
+  font-style: italic;
+  font-size: 11;
+  font-family: Palatino, 'Times New Roman', Times, serif;
+
+}
+
+div.main {
+  display: flex; 
+  justify-content: center; 
+  margin: 0px;
+}
+
+div.content {
+  padding: 35pt;
+  padding-top: 5pt;
+  padding-bottom: 30pt;
+}
+
+div.portfolioItem {
+  padding: 5px;
+}
+
+div.titleRow {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  max-width: 83%;
+}
+
+div.photoContainer {
+  text-align: center;
+}
+
+figure {
+  display: inline-block;
+  text-align: initial;
+  vertical-align: top;
+  position: relative;
+  width: 100%;
+  max-width: 600px;
+}
+
+figure.horizontal {
+  max-width: 900px;
+}
+
+figcaption {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  display: block;
+  font-weight: bold;
+  font-size: 11pt;
+  margin: 3px;
+}
+
+figcaption.subtitle {
+  font-family: "Calibri Light", "Helvetica";
+  font-style:italic;
+  color: #6d6d6d;
+}
+
+figure img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+
+div.grade, div.noGrade {
+  height: min-content;
+  border-radius: 5px;
+  padding: 5px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+}
+
+div.grade {
+  background-color: #00cc66;
+  color: #fefefe;
+}
+
+div.noGrade {
+  background-color: #6d6d6d;
+  color: #fefefe;
+}
+
+/* Item styles */
+
+h1 {
+  font-size: 42pt;
+  text-align: center;
+  /* font-family: Georgia, 'Times New Roman', Times, serif; */
+  font-family: 'Brush Script MT', 'Georgia', 'Serif';
+  margin: 3px;
+
+}
+
+h2 {
+  font-size: 24pt;
+  margin-top: 8pt;
+  margin-bottom: 10pt;
+  text-align: center;
+}
+
+h3 {
+  margin-top: 15pt;
+  margin-bottom: 6pt;
+  font-size: 18pt;
+  text-align: center;
+}
+
+h4 {
+  font-size: 16pt;
+  margin-bottom: 3px;
+}
+
+h5 {
+  text-align: center;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 10pt;
+  margin-top: 0px;
+}
+
+p {
+  font-size: 11pt;
+  text-align:justify;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  max-width: 100ch;
+}
+
+p.center {
+    text-align: center;
+}
+
+p.extra_small {
+    font-size: 11pt;
+    text-align: left;
+}
+
+p.reference {
+  font-size: 11pt;
+  text-align: left;
+}
+
+p.introduction {
+  font-family: Georgia, 'Times New Roman', Times, serif; 
+  font-style: italic; 
+  text-align: center; 
+  font-size: 12pt; 
+  padding-top: 20px;
+}
+
+hr {
+  height: 1px;
+  border-width: 0;
+  color: grey;
+  background-color: grey;
+}
+
+ul.menu {
+  margin: 6px;
+}
+
+li {
+  margin-bottom: 10px;
+}
+
+li.horizontal{
+  display: inline;
+  margin: 5px;
+  font-family: Helvetica;
+}
+
+a.menu {
+  color:inherit;
+  text-decoration: none;
+  margin-right: 5px;
+}
+
+a.menu:hover {
+  text-shadow:0px 0px 1px black;
+}
+
+.imgRow {
+  display: flex;
+  align-content: space-around;
+}
+
+img {
+  border-radius: 3px;
+}
+
+img.column {
+  flex: 35%;
+  padding-right: 5px;
+}
+
+img.figure {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+  min-width: 70%;
+  max-width: 95%;
+}
