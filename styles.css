@@ -12,13 +12,15 @@ body {
 
 article {
   float: center;
-  padding: 3vw;
+  padding: 2.5vw;
+  padding-bottom: 1.5vw;
   margin: auto;
   margin-top: 20px;
   margin-bottom: 20px;
   border-radius: 5px;
   min-width: 50%;
   max-width: 97vw;
+  max-width: 1000px;
   width: 75%;
   background-color: #fefefe;
   color: #222222;
@@ -88,6 +90,7 @@ figure img {
 
 div.grade, div.noGrade {
   height: 3.8vh;
+  max-height: 30px;
   border-radius: 5px;
   padding: 5px;
   padding-top: 3px;
@@ -112,6 +115,7 @@ div.github {
   padding: 5px;
   margin: 3px;
   max-width: 10vw;
+  max-height: 30px;
   height: min-content;
   justify-content: center;
 }
@@ -182,6 +186,7 @@ p.introduction {
   font-size: 12pt; 
   padding-top: 20px;
   line-height: 1.7;
+  max-width: none;
 }
 
 hr {
