@@ -45,7 +45,7 @@ div.titleRow {
   display: flex;
   justify-content: space-between;
   align-items: baseline;
-  max-width: 83%;
+  max-width: 90%;
 }
 
 div.photoContainer {
@@ -87,11 +87,13 @@ figure img {
 }
 
 div.grade, div.noGrade {
-  height: min-content;
+  height: 3.8vh;
   border-radius: 5px;
   padding: 5px;
   padding-top: 3px;
   padding-bottom: 3px;
+  display:grid;
+  align-items: center;
 }
 
 div.grade {
@@ -102,6 +104,16 @@ div.grade {
 div.noGrade {
   background-color: #6d6d6d;
   color: #fefefe;
+}
+
+div.github {
+  background-color: #6e5494;
+  border-radius: 5px;
+  padding: 5px;
+  margin: 3px;
+  max-width: 10vw;
+  height: min-content;
+  justify-content: center;
 }
 
 /* Item styles */
@@ -169,6 +181,7 @@ p.introduction {
   text-align: center; 
   font-size: 12pt; 
   padding-top: 20px;
+  line-height: 1.7;
 }
 
 hr {
