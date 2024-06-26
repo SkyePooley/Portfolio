@@ -1,27 +1,32 @@
 body {
   font-family: Helvetica;
   /*background-color: #f4f5f7;*/
-  /* background-image: linear-gradient(#fffcdc, hsl(322, 49%, 71%)); */
+/*   background-image: linear-gradient(#fffcdc, hsl(322, 49%, 71%)); */
   background-image: url("Images/britomart.JPG");
   background-repeat: no-repeat;
   background-size: fill;
   background-attachment:fixed;
   background-position: center ;
   line-height: 1.4;
-
 }
 
 article {
   float: center;
-  padding: 30px;
-  margin: 20px;
+  padding: 3vw;
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
   border-radius: 5px;
-  width: 50%;
-  min-width: 1000px;
+  min-width: 50%;
+  max-width: 97vw;
+  width: 75%;
   background-color: #fefefe;
-  /* background-image: transparent; */
   color: #222222;
   box-shadow: 3px 3px 10px rgb(25, 25, 25);
+}
+
+article.header {
+  margin-top: 0px;
 }
 
 address {
@@ -29,18 +34,6 @@ address {
   font-size: 11;
   font-family: Palatino, 'Times New Roman', Times, serif;
 
-}
-
-div.main {
-  display: flex; 
-  justify-content: center; 
-  margin: 0px;
-}
-
-div.content {
-  padding: 35pt;
-  padding-top: 5pt;
-  padding-bottom: 30pt;
 }
 
 div.portfolioItem {
@@ -64,7 +57,6 @@ figure {
   text-align: initial;
   vertical-align: top;
   position: relative;
-  width: 100%;
   max-width: 600px;
 }
 
@@ -91,6 +83,7 @@ figure img {
   margin-left: auto;
   margin-right: auto;
   width: 100%;
+  max-height: 85vh;
 }
 
 div.grade, div.noGrade {
