@@ -223,6 +223,7 @@ a.menu:hover {
 .imgRow {
   display: flex;
   align-content: space-around;
+  align-items:center;
 }
 
 img {
