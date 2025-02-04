@@ -2,11 +2,12 @@ body {
   font-family: Helvetica;
   /*background-color: #f4f5f7;*/
 /*   background-image: linear-gradient(#fffcdc, hsl(322, 49%, 71%)); */
-  background-image: url("Images/britomart.JPG");
+  background-image: url("Images/britomart.png");
   background-repeat: no-repeat;
-  background-size: fill;
+  background-size: cover;
   background-attachment:fixed;
   background-position: center ;
+  image-rendering: pixelated;
   line-height: 1.4;
 }
 
